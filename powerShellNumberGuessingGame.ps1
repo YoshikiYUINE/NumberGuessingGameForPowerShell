@@ -49,5 +49,7 @@ $wsobj = new-object -comobject wscript.shell;
 #popup message
 $popup = $wsobj.popup("Thank you!");
 }# out of function
+
+#start numberGuessingGame
 numberGuessingGame
 #EOC
